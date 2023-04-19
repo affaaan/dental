@@ -1,0 +1,59 @@
+@media (max-width:767px) {
+    .banner_img {
+        position: inherit;
+    }
+    .banner_col img {
+        position: inherit;
+        width: 80%;
+    }
+    .height {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .header_top img {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:575px) {
+   
+    
+    .header_top{
+        display: none;
+    }
+    .navbar-brand{
+        display: inherit;
+        width: 150px;
+    }
+   
+    .owl-nav{
+        display: none;
+    }
+    .owl-dots{
+      text-align: center;
+
+    }
+    
+    .owl-dots .owl-dot span{
+
+        display: block;
+
+        height: 10px;
+
+        width: 10px;
+
+        background: rgb(180, 174, 174);
+
+        margin: 2px;
+
+        border-radius: 50%;
+       
+    }
+    .owl-dots .owl-dot.active span{
+        background: red;
+    }
+    .banner_col {
+        text-align: center;
+    }
+}
